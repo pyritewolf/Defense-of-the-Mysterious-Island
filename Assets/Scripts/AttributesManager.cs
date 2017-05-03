@@ -14,7 +14,6 @@ public class AttributesManager : MonoBehaviour {
             Destroy(gameObject);
         } else { 
             instance = this;
-            gold = 500;
         }
     }
 

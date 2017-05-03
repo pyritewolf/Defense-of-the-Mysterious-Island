@@ -25,7 +25,8 @@ public class UIManager : MonoBehaviour {
         SceneManager.LoadScene("Mysterious Island");
     }
 
-    public void EndGame()
+    public void ExitGame()
     {
+        Application.Quit();
     }
 }
