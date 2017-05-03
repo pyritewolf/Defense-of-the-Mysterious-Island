@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour {
+public class LevelUIManager : MonoBehaviour {
 
-    static public UIManager instance;
+    static public LevelUIManager instance;
     public GameObject activeDefenseTile;
     public GameObject towerPrefab;
     public GameObject lighthousePrefab;
@@ -69,6 +69,14 @@ public class UIManager : MonoBehaviour {
     {
         (activeDefenseTile.GetComponent(typeof(SpawnDefense)) as SpawnDefense).ResetTile();
         activeDefenseTile = null;
+    }
+
+    public bool checkForActiveTiles()
+    {
+        if (activeDefenseTile) {
+            return true;
+        }
+        return false;
     }
 
 

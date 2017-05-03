@@ -445,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
   m_AnchorMin: {x: 0.7, y: 0.55}
   m_AnchorMax: {x: 0.7, y: 0.55}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 351, y: 182}
+  m_AnchoredPosition: {x: -39, y: 25}
+  m_SizeDelta: {x: 117, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &167257136
 MonoBehaviour:
@@ -3385,8 +3385,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1253583568}
+  - component: {fileID: 1253583569}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: UIManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3405,6 +3406,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1253583569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1253583567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aaa38f9cb26524d96a29a027bb8310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1274382876
 Prefab:
   m_ObjectHideFlags: 0
@@ -3754,10 +3766,10 @@ RectTransform:
   m_Father: {fileID: 980598508}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.7}
-  m_AnchorMax: {x: 0.5, y: 0.7}
+  m_AnchorMin: {x: 0.34249687, y: 0.55}
+  m_AnchorMax: {x: 0.6597329, y: 0.97121733}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 300}
+  m_SizeDelta: {x: 0, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1312903767
 MonoBehaviour:

@@ -55,9 +55,9 @@ public class CameraRotation : MonoBehaviour {
             
             transform.eulerAngles = new Vector3(0, rotation, 0);
             
-            if (UIManager.instance.activeDefenseTile)
+            if (LevelUIManager.instance.activeDefenseTile)
             {
-                UIManager.instance.resetActiveTile();
+                LevelUIManager.instance.resetActiveTile();
             }
 
         }

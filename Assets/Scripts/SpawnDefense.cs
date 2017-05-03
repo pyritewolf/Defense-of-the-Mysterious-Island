@@ -13,10 +13,14 @@ public class SpawnDefense : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (LevelUIManager.instance.checkForActiveTiles()) 
+        {
+            LevelUIManager.instance.resetActiveTile();
+        }
         emptySpawnerControls.SetActive(true);
         GetComponent<Renderer>().material = onClickMaterial;
 
-        UIManager.instance.activeDefenseTile = gameObject;
+        LevelUIManager.instance.activeDefenseTile = gameObject;
         
     }
 
